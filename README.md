@@ -1,5 +1,5 @@
 # 1.Core Concepts 
-
+    Day-1
     1.What is System Design?				
     2.System Design Strategies				
     3.High Availability vs Fault Tolerance				
