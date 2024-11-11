@@ -4,7 +4,7 @@
 
 ### 1. Core Concepts
 #### Day 1
-1. What is System Design?				
+1. What is System Design?	[link](https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/)			
 2. System Design Strategies				
 3. High Availability vs Fault Tolerance				
 4. Horizontal and Vertical Scaling				
