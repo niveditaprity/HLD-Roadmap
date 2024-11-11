@@ -1,4 +1,4 @@
-#Core Concepts
+# Core Concepts
 
     1.What is System Design?				
     2.System Design Strategies				
