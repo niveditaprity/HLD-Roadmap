@@ -5,10 +5,10 @@
 ### 1. Core Concepts
 #### Day 1
 1. What is System Design?	[link](https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/)			
-2. System Design Strategies				
-3. High Availability vs Fault Tolerance				
-4. Horizontal and Vertical Scaling				
-5. High Level Design vs Low Level Design
+2. System Design Strategies [link](https://www.geeksforgeeks.org/software-engineering-system-design-strategy/)		
+3. High Availability vs Fault Tolerance [link](https://www.freecodecamp.org/news/high-availability-fault-tolerance-and-disaster-recovery-explained/)		
+4. Horizontal and Vertical Scaling [link](https://www.geeksforgeeks.org/system-design-horizontal-and-vertical-scaling/)				
+5. High Level Design vs Low Level Design [link](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
 ### 2. Caching Fundamentals
 #### Day 2
