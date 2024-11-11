@@ -1,0 +1,26 @@
+1. Top-Down Design
+Definition: The top-down design approach starts with an overall view of the system, breaking it down into smaller, more manageable components.
+Example: Suppose you're designing an e-commerce website. You’d start by defining high-level components like User Interface, Order Management, 
+and Payment Processing. Each of these is then broken down further: User Interface could be split into Home Page, Product Page, Cart, 
+and Checkout sections, and so on, until each component is specific and implementable.
+2. Bottom-Up Design
+Definition: In bottom-up design, you start by developing individual components or subsystems and then integrate them into a complete system.
+Example: For the same e-commerce website, you might first create individual modules such as Payment Gateway, 
+Product Search Algorithm, and User Authentication. Once all individual components are built, they are assembled into the larger system.
+3. Iterative Design
+Definition: Iterative design involves developing the system in multiple cycles, where each stage refines and builds upon the previous one.
+Example: In developing a mobile app, you may start with a basic prototype for the primary feature, 
+say user registration. In the next iteration, you add another feature, like user profile management. With each cycle, you refine,
+improve, and test each addition before moving to the next stage, ensuring the app evolves through continuous user feedback.
+4. Incremental Design
+Definition: Incremental design focuses on implementing a small part of the system at a time, gradually adding more functionality with each iteration.
+Example: If you’re developing a chat application, you might first design and implement the basic messaging functionality. 
+Once that’s working, you add media sharing, then group chats, and so on.
+Each iteration introduces a new, functional part of the application without modifying the existing features.
+5. Agile Design
+Definition: Agile design is a flexible, iterative approach that allows for evolving requirements and 
+continuous improvement through close collaboration among cross-functional teams.
+Example: In an agile approach to developing a project management tool, 
+you might have weekly sprints to release new features based on customer feedback. One sprint could focus on the task creation module, 
+the next on task assignment and notifications, and so forth. By the end of each sprint, 
+you have a working part of the system that the team can iterate on based on feedback from stakeholders.
