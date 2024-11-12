@@ -6,7 +6,28 @@
 #### Day 1
 1. What is System Design?	[link](https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/)		
   
-2. System Design Strategies [link](https://www.geeksforgeeks.org/software-engineering-system-design-strategy/) 
+##### 2. System Design Strategies [link](https://www.geeksforgeeks.org/software-engineering-system-design-strategy/) 
+          Top-Down Design:
+          Starts with a high-level view and breaks it down into smaller parts.
+          Useful for planning and organizing complex systems.
+          Example: Designing a website by first outlining main pages, then detailing each section.
+          Bottom-Up Design:
+          Begins with individual components and builds up to form the whole system.
+          Useful when reusable components are available.
+          Example: Building a database by first creating tables, then connecting them into a complete structure.
+          Iterative Design:
+          Develops the system through repeated cycles, refining with each iteration.
+          Involves gathering feedback at each stage.
+          Example: Releasing an app version, collecting user feedback, and improving features in each update.
+          Incremental Design:
+          Adds functionality in small, completed parts over time.
+          Focuses on gradual expansion of system capabilities.
+          Example: Building a payroll system by implementing salary calculation first, then adding tax and leave management.
+          Agile Design:
+          
+          Flexible and iterative, adapts to changing requirements.
+          Emphasizes collaboration, feedback, and quick adjustments.
+          Example: Developing a social media app, adjusting features based on continuous user feedback and team input.
 ##### 3. High Availability vs Fault Tolerance [link](https://www.freecodecamp.org/news/high-availability-fault-tolerance-and-disaster-recovery-explained/)		
      High Availability Systems are online as often as possible, very less downtime. its main purpose to minimize downtime.
      Fault Tolerant system works even there is any failure occurs in a system (by using standby(backup) resource.
