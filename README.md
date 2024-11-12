@@ -39,15 +39,15 @@
 
 ### 2. Caching Fundamentals
 #### Day 2
-1. What is Caching?				
+1. What is Caching?		[link](https://blog.algomaster.io/p/4d7d6f8a-6803-4c7b-85ca-864c87c2cbf2)		
 2. Caching in System Design				
-3. Write-Through Caching				
-4. Write-Back Caching	
+3. Write-Through Caching [link](https://blog.algomaster.io/p/top-5-caching-strategies-explained)			
+4. Write-Back Caching
+5. Write-Around Caching		
 
-#### Day 3
-5. Write-Around Caching				
-6. Cache-Control Directives				
-7. Cache Eviction Policies
+#### Day 3		
+6. Cache-Control Directives [link](https://medium.com/@yadav-ajay/cache-control-6676620f31c0)		
+7. Cache Eviction Policies [link](https://www.geeksforgeeks.org/cache-eviction-policies-system-design/)
 
 ### 3. Performance and Reliability
 #### Day 4
