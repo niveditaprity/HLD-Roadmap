@@ -11,7 +11,9 @@
      High Availability Systems are online as often as possible, very less downtime. its main purpose to minimize downtime.
      Fault Tolerant system works even there is any failure occurs in a system (by using standby(backup) resource.
    
-4. Horizontal and Vertical Scaling [link](https://www.geeksforgeeks.org/system-design-horizontal-and-vertical-scaling/)				
+#### 4. Horizontal and Vertical Scaling [link](https://www.freecodecamp.org/news/horizontal-vs-vertical-scaling-in-database/)		
+      Horizontal Scaling means adding more data resources ,easy to upgrade ,implement, limitless scaling , more cost,used when users are more than thousands.
+      Vertical Scaling means increasing the capacity of the single resources,cost efficient , easy to use and implement.
 5. High Level Design vs Low Level Design [link](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
 ### 2. Caching Fundamentals
