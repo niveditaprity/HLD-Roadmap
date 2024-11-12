@@ -8,8 +8,8 @@
   
 2. System Design Strategies [link](https://www.geeksforgeeks.org/software-engineering-system-design-strategy/) 
 ##### 3. High Availability vs Fault Tolerance [link](https://www.freecodecamp.org/news/high-availability-fault-tolerance-and-disaster-recovery-explained/)		
-   High Availability Systems are online as often as possible, very less downtime. its main purpose to minimize downtime.
-   Fault Tolerant system works even there is any failure occurs in a system (by using standby(backup) resource.
+     High Availability Systems are online as often as possible, very less downtime. its main purpose to minimize downtime.
+     Fault Tolerant system works even there is any failure occurs in a system (by using standby(backup) resource.
    
 4. Horizontal and Vertical Scaling [link](https://www.geeksforgeeks.org/system-design-horizontal-and-vertical-scaling/)				
 5. High Level Design vs Low Level Design [link](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
