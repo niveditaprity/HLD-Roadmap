@@ -3,7 +3,7 @@
 ## Day-wise Schedule
 
 ### 1. Core Concepts
-#### Day 1
+#### ✅ Day 1
 1. What is System Design?	[link](https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/)		
   
 ##### 2. System Design Strategies [link](https://www.geeksforgeeks.org/software-engineering-system-design-strategy/) 
