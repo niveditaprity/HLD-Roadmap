@@ -41,9 +41,30 @@
 #### Day 2
 1. What is Caching?		[link](https://blog.algomaster.io/p/4d7d6f8a-6803-4c7b-85ca-864c87c2cbf2)		
 2. Caching in System Design				
-3. Write-Through Caching [link](https://blog.algomaster.io/p/top-5-caching-strategies-explained)			
-4. Write-Back Caching
-5. Write-Around Caching		
+3. Caching Strategies [link](https://blog.algomaster.io/p/top-5-caching-strategies-explained)
+   
+       Caching strategies
+       1. Cache Aside : Application first checks the cache if data is found it is called cache hit and if not then its called cache miss,
+         then application read the data from db and store it in cache and return the data to client
+          pros: good for heavy read application and cache fails even it will work
+          cons : during write operation if appropriate caching is not used then data can be inconsistent between db and cache.
+       2. Read Through Cache : if data is not found in cache then cache itself read from db and save in cache and return data to client
+           pros as cache aside , cons: cache miss first always for read and data inscositent without appropriate caching
+           cache doucument should be same as db.
+       3.Write Around  : here data gets updated directly into db , do not update in cache when data gets changed it mark cache data as dirty
+          pros : heavy read application and resolved incosistency problem between db and cache.
+          cons : cache miss at first , if db is down, request will fail.
+       4.Write Through : first write data into cache then in db in synchronous manner
+       pros : data consistent, cache hits chances increases a lot
+       cons: alone it can't be used need (read thorugh and read aside ) otherwise it will  increase latency . 2-phase commits need to be supported.
+       if db fails it will also fail
+       5.Write Back : first write data in cache then asynchornously in db
+         pros : good for write heavy application,improves write operation latency,as write in db is in asynchronously
+          cache hits increases, gives much better performance when used with read through cache.
+           even db fails,write operations still works
+         cons : if data is removed and data is not wriiten in db then it can create issue.
+   
+       
 
 #### Day 3		
 6. Cache-Control Directives [link](https://medium.com/@yadav-ajay/cache-control-6676620f31c0)		
