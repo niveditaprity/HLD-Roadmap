@@ -37,8 +37,8 @@
       Vertical Scaling means increasing the capacity of the single resources,cost efficient , easy to use and implement.
 5. High Level Design vs Low Level Design [link](https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/)
 
-### ✅ 2. Caching Fundamentals
-#### Day 2
+###  2. Caching Fundamentals
+#### ✅ Day 2
 1. What is Caching?		[link](https://blog.algomaster.io/p/4d7d6f8a-6803-4c7b-85ca-864c87c2cbf2)		
 2. Caching in System Design				
 3. Caching Strategies [link](https://blog.algomaster.io/p/top-5-caching-strategies-explained)
