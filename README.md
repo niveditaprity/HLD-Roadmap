@@ -86,6 +86,17 @@
             
 8. Cache Eviction Policies [link](https://www.geeksforgeeks.org/cache-eviction-policies-system-design/)
 
+         Cache Eviction Policies are the strategies used to decide which data should be removed from cache.
+          LRU,LFU,MFU,Random replacement,Time to Live,LIFO,FIFO
+          Adaptive Replacement Cache (ARC) : Dynamically balances between recency (LRU) and frequency (LFU).
+          LRU: For applications where recent access patterns matter (e.g., browsers).
+          LFU: For applications where access frequency is key (e.g., content recommendation).
+          FIFO: For simple or batch-processing systems.
+          TTL: For caching data with an expiry (e.g., session tokens).
+
+          
+   
+
 ### 3. Performance and Reliability
 #### Day 4
 1. Bandwidth and Throughput				
