@@ -66,7 +66,7 @@
    
        
 
-#### Day 3		
+####  ✅ Day 3		
 6. Cache-Control Directives [link](https://medium.com/@yadav-ajay/cache-control-6676620f31c0)
 
         Cache-Control Directives are Http headers instructions  that specify that how, when and how long a browser or intermediary (e.g., CDN, proxy server)
