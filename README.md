@@ -67,8 +67,24 @@
        
 
 #### Day 3		
-6. Cache-Control Directives [link](https://medium.com/@yadav-ajay/cache-control-6676620f31c0)		
-7. Cache Eviction Policies [link](https://www.geeksforgeeks.org/cache-eviction-policies-system-design/)
+6. Cache-Control Directives [link](https://medium.com/@yadav-ajay/cache-control-6676620f31c0)
+
+        Cache-Control Directives are Http headers instructions  that specify that how, when and how long a browser or intermediary (e.g., CDN, proxy server)
+         should cache a resource.
+         These are most used directives
+         1. Response Directives
+            these are sent from servers to clien.
+            1. public : response can be cached by any cache(browser, CDN, proxy)
+            2. private : response can be cached by only user's browser not by any intermediary .
+            3. no-cache : response cane be cached but must be re-validated from orginal-server before each use.
+            4. max-age : it indicates response can be fresh untill n seconds , after n seconds it will generated.
+            5. s-maxage : it indicates how long a response can be  freshed in a shared cache.
+            6. must-revalidate : Forces caches to revalidate expired content with the server before using it.
+            7. proxy-revalidate : Like must-revalidate, but applies only to shared (proxy) caches
+        2. Request Directives
+           These are sent form client to servers. 
+            
+8. Cache Eviction Policies [link](https://www.geeksforgeeks.org/cache-eviction-policies-system-design/)
 
 ### 3. Performance and Reliability
 #### Day 4
