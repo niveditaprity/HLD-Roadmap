@@ -98,10 +98,34 @@
    
 
 ### 3. Performance and Reliability
-#### Day 4
-1. Bandwidth and Throughput				
-2. Latency				
-3. Response Time	
+####  ✅ Day 4
+1. Bandwidth and Throughput
+
+       Bandwith : it is the maximum amount of data that can be transmitted over a network in given amount of time.measured in bits per second(bps).
+       Throughput : it is rate at which data is transmitted over a network. measured in units data per second (mbps)
+        Key Difference: Bandwidth is the theoretical maximum, while throughput is what’s actually achieved.
+      
+2. Latency
+
+        Latency typically refers to the total time it takes for
+          Request to travel from the client to the server.
+          Response to travel back from the server to the client.
+4. Response Time
+   
+         Response Time is the total time taken to process a request and deliver the response back to the client.
+           Response Time=Latency (round trip)+Processing Time
+         To improve response time:
+          Reduce Latency:
+          
+          Use Content Delivery Networks (CDNs).
+          Optimize DNS lookups.
+          Deploy servers closer to the end-users (edge computing).
+   
+          Reduce Processing Time:        
+          Optimize code and algorithms.
+          Use efficient database queries.
+          Cache frequently requested data.
+
 
 #### Day 5
 4. Reliability and Redundancy				
