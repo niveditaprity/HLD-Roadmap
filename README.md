@@ -181,6 +181,68 @@ Reliability
      
 6. Trade-offs in High-Level Design
 
+       1. Scalability vs. Consistency
+            Scenario: Distributed systems often need to scale horizontally to handle high loads.
+              Trade-off:
+                Prioritizing scalability (e.g., eventual consistency in NoSQL databases) may result in delays in data synchronization across replicas.
+                Ensuring consistency (e.g., strict ACID compliance in SQL databases) can limit scalability due to increased coordination overhead.
+             Example: CAP theorem (Consistency, Availability, Partition Tolerance) forces a choice between consistency and availability during network partitions.
+       2. Performance vs. Reliability
+            Scenario: Optimizing for high performance (e.g., low latency) might bypass certain reliability mechanisms.
+              Trade-off:
+                A highly performant system may avoid retries, validations, or redundancy checks, increasing failure risks.
+                Prioritizing reliability might involve adding layers of redundancy or error checks, which can slow down response times.
+              Example: Caching accelerates performance but risks stale data if reliability isn't addressed.
+       3. Cost vs. Redundancy
+            Scenario: Building a highly available and fault-tolerant system often requires additional resources.
+            Trade-off:
+              Redundancy (e.g., multiple data centers, replication) ensures availability and fault tolerance but increases infrastructure and operational costs.
+              Reducing costs may lead to single points of failure.
+            Example: A startup may opt for a single cloud region to save costs, while an enterprise invests in multi-region deployments for reliability.
+        4. Simplicity vs. Flexibility
+          Scenario: Simple systems are easier to develop and maintain but may lack advanced capabilities.
+          Trade-off:
+            Simplicity limits customizations and may not scale well for complex use cases.
+            Flexibility introduces additional configuration, complexity, and potential maintenance overhead.
+          Example: Monolithic architecture is simpler but less flexible than microservices for large, evolving systems.
+       5. Latency vs. Throughput
+          Scenario: Systems processing data in real time vs. batch operations.
+          Trade-off:
+            Low latency systems (e.g., online transaction processing) prioritize speed per request but may handle fewer concurrent operations.
+            High throughput systems (e.g., batch processing) optimize overall capacity but may introduce delays in processing individual tasks.
+          Example: Payment gateways prioritize latency, while big data pipelines prioritize throughput.
+        6. Security vs. Usability
+          Scenario: Balancing secure user authentication with user-friendly experiences.
+          Trade-off:
+            Strong security measures (e.g., multi-factor authentication, encryption) may introduce friction for users.
+            High usability (e.g., one-click login) can expose the system to vulnerabilities.
+          Example: Google Authenticator improves security but adds an extra step for users.
+        7. Reliability vs. Development Speed
+          Scenario: Rapid product development vs. building a fault-tolerant system.
+          Trade-off:
+            Focusing on reliability may slow development due to rigorous testing, monitoring, and resilience mechanisms.
+            Prioritizing speed can lead to technical debt or brittle systems that are prone to failure.
+          Example: Startups often prioritize speed to market, while established companies focus on reliability for customer trust.
+        8. Vendor Lock-in vs. Portability
+          Scenario: Using specialized cloud provider services vs. building cloud-agnostic systems.
+          Trade-off:
+            Leveraging provider-specific tools (e.g., AWS Lambda, Google BigQuery) can accelerate development but create vendor lock-in.
+            Building portable solutions may require more effort and cost but provides flexibility to switch providers.
+          Example: A cloud-native database like DynamoDB is performant but tied to AWS, while PostgreSQL is portable but requires more setup.
+        9. Eventual Consistency vs. Strong Consistency
+          Scenario: Distributed databases with high availability requirements.
+          Trade-off:
+            Eventual consistency systems (e.g., Cassandra) optimize availability and performance but may serve stale data temporarily.
+            Strong consistency systems (e.g., Spanner) ensure data correctness but involve higher latencies and complexity.
+          Example: A social media timeline can tolerate eventual consistency, but a bank transaction cannot.
+        10. Customization vs. Standardization
+          Scenario: Tailored features vs. reusable components.
+          Trade-off:
+            Building custom solutions provides a better fit for specific needs but is harder to scale and maintain.
+            Using standardized components ensures scalability and interoperability but may limit unique requirements.
+          Example: A custom-built analytics dashboard vs. using a standard tool like Tableau.
+
+
 ### 4. Architecture Patterns
 #### Day 6
 1. Monolithic vs Distributed Systems				
