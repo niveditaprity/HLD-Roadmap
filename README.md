@@ -145,6 +145,37 @@
           ensuring data can still flow.
         5.Geographic Redundancy  : A global cloud service provider maintains data centers in multiple continents to ensure service availability
            even in the event of a regional disaster.
+Reliability
+
+        Reliability in system design is a critical principle ensuring that systems consistently perform their intended functions under 
+        predefined conditions.  It's especially vital for applications where downtime or errors could lead to significant consequences, 
+        such as financial systems, healthcare applications, or large-scale distributed systems.
+        Key Aspects of Reliability
+          Fault Tolerance
+          
+          Ability of the system to continue functioning even when part of it fails. This can be achieved through:
+          Redundancy: Replicating critical components to prevent single points of failure.
+          Failover Mechanisms: Automatically switching to backup systems during failure.
+          High Availability (HA)
+          
+          Ensures that the system remains accessible for use almost all the time. Techniques include:
+          Load balancing to distribute traffic.
+          Geo-redundancy to ensure service continuity during regional outages.
+          Consistency and Correctness
+          
+          Systems should deliver correct results even under concurrent or stressful conditions. Achieving this often involves:
+          Using ACID transactions in databases.
+          Ensuring data synchronization across replicas.
+          Resilience
+          
+          The ability to recover quickly from failures. This involves:
+          Implementing self-healing mechanisms.
+          Utilizing monitoring and alerting tools to detect and resolve issues proactively.
+          Scalability
+          
+          Ensuring that the system remains reliable even as demand grows. Key methods include:
+          Horizontal scaling (adding more servers).
+          Efficient resource management.
 
 
 
