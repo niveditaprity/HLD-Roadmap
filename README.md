@@ -152,30 +152,28 @@ Reliability
         such as financial systems, healthcare applications, or large-scale distributed systems.
         Key Aspects of Reliability
           Fault Tolerance
+            
+            Ability of the system to continue functioning even when part of it fails. This can be achieved through:
+            Redundancy: Replicating critical components to prevent single points of failure.
+            Failover Mechanisms: Automatically switching to backup systems during failure.
           
-          Ability of the system to continue functioning even when part of it fails. This can be achieved through:
-          Redundancy: Replicating critical components to prevent single points of failure.
-          Failover Mechanisms: Automatically switching to backup systems during failure.
           High Availability (HA)
-          
-          Ensures that the system remains accessible for use almost all the time. Techniques include:
-          Load balancing to distribute traffic.
-          Geo-redundancy to ensure service continuity during regional outages.
+            Ensures that the system remains accessible for use almost all the time. Techniques include:
+            Load balancing to distribute traffic.
+            Geo-redundancy to ensure service continuity during regional outages.
+            
           Consistency and Correctness
-          
-          Systems should deliver correct results even under concurrent or stressful conditions. Achieving this often involves:
-          Using ACID transactions in databases.
-          Ensuring data synchronization across replicas.
+            Systems should deliver correct results even under concurrent or stressful conditions. Achieving this often involves:
+            Using ACID transactions in databases.
+            Ensuring data synchronization across replicas.
           Resilience
-          
-          The ability to recover quickly from failures. This involves:
-          Implementing self-healing mechanisms.
-          Utilizing monitoring and alerting tools to detect and resolve issues proactively.
+            The ability to recover quickly from failures. This involves:
+            Implementing self-healing mechanisms.
+            Utilizing monitoring and alerting tools to detect and resolve issues proactively.
           Scalability
-          
-          Ensuring that the system remains reliable even as demand grows. Key methods include:
-          Horizontal scaling (adding more servers).
-          Efficient resource management.
+            Ensuring that the system remains reliable even as demand grows. Key methods include:
+            Horizontal scaling (adding more servers).
+            Efficient resource management.
 
 
 
