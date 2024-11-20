@@ -128,8 +128,29 @@
 
 
 #### Day 5
-4. Reliability and Redundancy				
-5. Trade-offs in High-Level Design
+4. Reliability and Redundancy [Link](https://www.geeksforgeeks.org/redundancy-system-design/)
+
+       Redundancy means having backups or duplicate of things  to keep working your software system even if it breaks.
+       Redundancy helps prevent big problems when things go wrong. It can be applied to different parts of a computer system,
+       like having extra computer servers, multiple copies of data, or backup internet connections. This way,
+       if one part fails, the redundant one takes over, and everything keeps running smoothly.
+       Types of Redundancy:
+        1.Hardware Redundancy : In a RAID (Redundant Array of Independent Disks) configuration,
+       multiple hard drives are used to store data redundantly. If one drive fails, data can still be retrieved from the other drives.
+        2.Software Redundancy : Web servers often use software load balancers to distribute incoming requests across multiple server instances.
+          If one server fails, the load balancer redirects traffic to healthy servers.
+        3.Data Redundancy : Database Replication creates redundant copied of database across multiple servers. If one servers fails,
+         another can continue serving the same data.
+        4.Network Redundancy : BGP (Border Gateway Protocol) routing uses multiple network paths to reroute traffic in case of network failures,
+          ensuring data can still flow.
+        5.Geographic Redundancy  : A global cloud service provider maintains data centers in multiple continents to ensure service availability
+           even in the event of a regional disaster.
+
+
+
+
+     
+6. Trade-offs in High-Level Design
 
 ### 4. Architecture Patterns
 #### Day 6
