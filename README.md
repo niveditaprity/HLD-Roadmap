@@ -243,7 +243,7 @@ Reliability
           Example: A custom-built analytics dashboard vs. using a standard tool like Tableau.
 
 
-### 4. Architecture Patterns
+### 4. Architecture Patterns [link](https://medium.com/@ashwin_kumar_/monolithic-vs-distributed-architecture-a68f3fd5f32c)
 #### Day 6
 1. Monolithic vs Distributed Systems				
 2. Characteristics of Microservice Architecture				
