@@ -247,7 +247,29 @@ Reliability
 #### Day 6
 1. Monolithic vs Distributed Systems				
 2. Characteristics of Microservice Architecture				
-3. Benefits of Microservice Architecture	
+3. Benefits of Microservice Architecture
+4. 1. Decompose by business capability
+ - https://lnkd.in/e2wqqa3W
+
+2. Decompose by subdomain [link](https://lnkd.in/e7KtTKWh)
+
+3. Self-contained Service [link](https://lnkd.in/eADKddee)
+
+4. Service per team [link](https://lnkd.in/eKWzFGJQ)
+
+5. Database per Service [link](https://lnkd.in/ewB_4uBx)
+
+6. Shared Database [link](https://lnkd.in/eK6ckuRg)
+
+7. API Composition [link](https://lnkd.in/ekSjqvi8)
+
+8. CQRS [link](https://lnkd.in/e2anfhbr)
+
+9. Saga [link](https://lnkd.in/ejSgUDTv)
+
+10. Event Sourcing [link](https://lnkd.in/edxzGyye)
+
+11. Domain Event [link](https://lnkd.in/eNSjgJRP)
 
 #### Day 7
 4. Challenges of Microservice Architecture				
